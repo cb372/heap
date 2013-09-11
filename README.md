@@ -1,7 +1,6 @@
 An immutable Heap (a.k.a. Priority Queue) implementation.
 
-Benefits over `scala.collection.mutable.PriorityQueue`
------
+Benefits over `scala.collection.mutable.PriorityQueue`:
 
 * Supports `decreaseKey` operation for efficiently decreasing the key associated with a given value. Useful in e.g. Dijsktra's shortest path algorithm, Prim's minimum spanning tree algorithm.
 
@@ -12,6 +11,6 @@ Benefits over `scala.collection.mutable.PriorityQueue`
 Performance
 -----
 
-extractMin = O(log(n))
-insert = O(log(n))
-decreaseKey = O(log(n))
+* extractMin = O(log(n))
+* insert = O(log(n))
+* decreaseKey = O(log(n))
